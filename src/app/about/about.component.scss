@@ -4,6 +4,12 @@
     margin-top: 5%;
     z-index: 3;
     border-radius: 10%;
+
+    @media (max-width: 768px){
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 2.5%;
+    }
 }
 
 h1{
@@ -15,6 +21,12 @@ h1{
     margin-left: 10%;
     margin-top: 10%;
     z-index: 3;
+
+    @media (max-width: 768px){
+        font-size: 45px;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
 }
 
 h3 {
@@ -24,12 +36,20 @@ h3 {
     --tw-text-opacity: 1;
     color: #597dff;
     z-index: 3;
+
+    @media (max-width: 768px){
+        font-size: 16px;
+    }
 }
 
 .about1{
     display: flex;
     flex-direction: row;
     z-index: 3;
+
+    @media (max-width: 768px){
+        flex-direction: column;
+    }
 }
 
 .text-blue{
@@ -51,10 +71,19 @@ h3 {
     padding-left: 15%;
     padding-top: 5%;
     z-index: 3;
+
+    @media (max-width: 768px){
+        padding-left: 7.5%;
+        padding-top: 2.5%;
+    }
 }
 
 .mk2{
     color: #fff;
     font-size: 30px;
     font-family: 'Poppins';
+
+    @media (max-width: 768px){
+        font-size: 15px;
+    }
 }
