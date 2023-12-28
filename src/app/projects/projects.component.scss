@@ -81,3 +81,24 @@ h4 {
     flex-direction: column;
   }
 }
+
+@media (max-width: 1284px) {
+  .card {
+      width: auto; // Allow cards to fit the screen width
+      margin: 10px; // Add some margin around the cards
+  }
+
+  h1 {
+      font-size: 2.5rem; // Adjust for readability
+      margin-left: 5%;
+      margin-top: 5%;
+  }
+
+  p, h4 {
+      font-size: 1.2rem; // Adjust font size for readability
+  }
+
+  .prj2 {
+      flex-direction: column; // Stack the cards vertically
+  }
+}

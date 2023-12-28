@@ -40,6 +40,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 .page-bg {
@@ -121,6 +122,10 @@ body {
   z-index: -1;
 }
 
+.section1{
+  z-index: 3;
+}
+
 
 
 /*glow for webkit*/
@@ -195,5 +200,16 @@ body {
       0 0 40px #FF1177,
       0 0 50px #FF1177,
       0 0 75px #FF1177;
+  }
+}
+
+// body, html {
+//   max-width: 100%;
+//   overflow-x: hidden;
+// }
+
+@media (min-width: 768px) {
+  app-navbar-mobile {
+      display: none;
   }
 }
